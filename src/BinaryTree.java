@@ -1,4 +1,3 @@
-
 @SuppressWarnings("unused")
 public class BinaryTree {
     private Node root;
