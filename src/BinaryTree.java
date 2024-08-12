@@ -141,10 +141,10 @@ public class BinaryTree {
                 return;
             }
 
-            if(!isLeft){
-                dad.setRight(current.getRight());
-            } else {
+            if(isLeft){
                 dad.setLeft(current.getRight());
+            } else {
+                dad.setRight(current.getRight());
             }
             return;
         }

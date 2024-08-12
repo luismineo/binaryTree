@@ -20,7 +20,7 @@ public class Main {
         System.out.println("pre-order traversal:");
         bt.preOrder(bt.getRoot());
 
-        bt.remove(7);
+        bt.remove(5);
 
         System.out.println("pre-order traversal:");
         bt.preOrder(bt.getRoot());
